@@ -1,0 +1,10 @@
+{
+    "dog": {
+        "love@dict": {
+            "love": "barf"
+        },
+        "hate@dict": {
+            "hate": "hugs"
+        }
+    }
+}

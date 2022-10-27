@@ -1,0 +1,13 @@
+{
+    "foo@bar.json#bar": {
+        "foo@dict": {
+            "foo": "foo"
+        },
+        "bar@bar.json#bar.bar": {
+            "foo": "foo"
+        },
+        "foobar": {
+            "foobar": "foobar"
+        }
+    }
+}

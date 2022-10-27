@@ -1,0 +1,18 @@
+{
+    "foo": {
+        "foo@dict": {
+            "foo": "foo"
+        },
+        "bar@dict": {
+            "bar": "@bar.bar"
+        }
+    },
+    "bar": {
+        "foo@dict": {
+            "foo": "@foo.foo"
+        },
+        "bar@dict": {
+            "bar": "bar"
+        }
+    }
+}

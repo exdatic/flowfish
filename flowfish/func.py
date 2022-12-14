@@ -231,6 +231,6 @@ class Func:
                 try:
                     code = find_code(func)
                     return cls(name, func, code)
-                except TypeError as e:
-                    logger.warning(f'code extration failed for "{name}": {e!r}')
+                except Exception as e:
+                    logger.warning(f'code extraction failed for "{name}": {e!r}')
             return cls(name, func)
